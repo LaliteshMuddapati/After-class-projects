@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS EMPLOYEES (EMP_ID TEXT PRIMARY KEY, NAME TEXT, SALARY REAL);
+
+INSERT INTO EMPLOYEES (EMP_ID, NAME, SALARY) VALUES
+('E01', 'Joe', 20000),
+('E02', 'James', 10000),
+('E03', 'Jack', 30000),
+('E04', 'Jeremy', 50000),
+('E05', 'Geoff', 40000),
+('E06', 'Jeff', 14000),
+('E07', 'John', 21000),
+('E08', 'Jake', 22000),
+('E09', 'Michael', 50000),
+('E10', 'Mike', 34000);
+
+SELECT * FROM EMPLOYEES;
