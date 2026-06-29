@@ -66,7 +66,7 @@ fiction_history = pd.read_sql("""SELECT * FROM Book WHERE Category IN ('Fiction'
 print(fiction_history)
 
 
-title_books = pd.read_sql("""SELECT * FROM Book WHERE Book_Title LIKE 'The%' AND  WHERE Book_Title LIKE '%Book';""", conn)
+title_books = pd.read_sql("""SELECT * FROM Book WHERE Book_Title LIKE 'The%' WHERE Book_Title LIKE '%Book';""", conn)
 print(title_books)
 
 
